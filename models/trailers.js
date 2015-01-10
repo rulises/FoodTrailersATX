@@ -1,3 +1,5 @@
+var mongoose = require('./data/db');
+
 var trailerSchema = new mongoose.Schema({
   name: String
 });

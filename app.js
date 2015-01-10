@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var trailers = require('./routes/trailers');
 
-var db = require('./data/db');
+var mongoose = require('./data/db');
 
 var app = express();
 
