@@ -6,7 +6,7 @@ router.get('/', function(req, res) {
     res.render('views/index');
 });
 /* GET about page. */
-app.get('/about', function(req, res) {
+router.get('/about', function(req, res) {
     res.render('views/about');
 });
 
