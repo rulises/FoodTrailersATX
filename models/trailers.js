@@ -1,4 +1,4 @@
-var mongoose = require('./data/db');
+var mongoose = require('mongoose');
 
 var trailerSchema = new mongoose.Schema({
   name: String
